@@ -386,14 +386,15 @@ img {
   height: 88px;
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
+  color: var(--subtle-text);
 }
 
 .logo-company {
-  fill: var(--subtle-text);
+  fill: currentColor;
 }
-.logo-company:hover,
-.logo-company:focus {
-  fill: var(--pressed-state);
+.costumers-link:hover,
+.costumers-link:focus {
+  color: var(--pressed-state);
 }
 
 /**
