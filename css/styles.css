@@ -254,7 +254,7 @@ img {
 }
 
 .advantages-icon {
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   margin-bottom: 8px;
   padding: 24px 100px;
   background-color: var(--light);
