@@ -429,13 +429,10 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  gap: 120px;
 }
 
-.footer-second-part {
-  /* display: flex;
-  justify-content: center;
-  align-items: flex-start; */
+.footer-first-part {
+  margin-right: 120px;
 }
 .footer-second-text {
   margin-bottom: 16px;
