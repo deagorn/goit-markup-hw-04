@@ -374,13 +374,18 @@ img {
 }
 
 .costumers-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.costumers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 168px;
   height: 88px;
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .logo-company {
