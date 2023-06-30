@@ -428,7 +428,7 @@ img {
 .footer-flex {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 120px;
 }
 
