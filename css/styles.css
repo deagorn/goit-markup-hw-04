@@ -451,6 +451,11 @@ img {
 .socials-footer {
   gap: 16px;
 }
+
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background: var(--success);
+}
 /**
   |============================
   | Portfolio
