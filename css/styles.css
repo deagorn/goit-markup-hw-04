@@ -254,10 +254,13 @@ img {
 }
 
 .advantages-icon {
-  /* box-sizing: content-box; */
   margin-bottom: 8px;
-  padding: 24px 100px;
   background-color: var(--light);
+  display: flex;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* What are we doing */
