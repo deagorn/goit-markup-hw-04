@@ -70,6 +70,10 @@ img {
   padding: 0 15px;
 }
 
+.container .link {
+  display: inline-block;
+}
+
 /*  header */
 
 .page-header {
@@ -289,7 +293,7 @@ img {
   gap: 24px;
 }
 
-.socials-circle {
+.socials-item .socials-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -303,8 +307,8 @@ img {
   fill: #f4f4fd;
 }
 
-.socials-circle:hover,
-.socials-circle:focus {
+.socials-link:hover,
+.socials-link:focus {
   background-color: var(--pressed-state);
 }
 
@@ -324,9 +328,7 @@ img {
 .footer .logo-part {
   color: var(--light);
 }
-.container .link {
-  display: inline-block;
-}
+
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
