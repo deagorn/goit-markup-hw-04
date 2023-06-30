@@ -10,6 +10,7 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
+
 /*       Reset default styles */
 
 .visually-hidden {
@@ -53,11 +54,11 @@ img {
   display: block;
 }
 
-/*       BODY        */
-/* .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
+/**
+  |============================
+  |          BODY
+  |============================
+*/
 .page {
   color: var(--text);
   background-color: #fff;
@@ -74,7 +75,11 @@ img {
   display: inline-block;
 }
 
-/*  header */
+/**
+  |============================
+  |         header
+  |============================
+*/
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -158,7 +163,12 @@ img {
 .auth-nav-first {
   margin-right: 40px;
 }
-/* hero */
+
+/**
+  |============================
+  |           hero
+  |============================
+*/
 
 .hero {
   background-color: var(--dark);
@@ -174,7 +184,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   padding: 188px 0;
 }
@@ -213,7 +222,11 @@ img {
   background-color: var(--pressed-state);
 }
 
-/* section */
+/**
+  |============================
+  |       section
+  |============================
+*/
 
 .section-caption {
   color: var(--dark);
@@ -238,7 +251,11 @@ img {
   color: var(--text);
 }
 
-/*  Advantages   */
+/**
+  |============================
+  |         Advantages
+  |============================
+*/
 .main-description {
   padding: 120px 0;
 }
@@ -261,6 +278,7 @@ img {
   height: 112px;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
 }
 
 /* What are we doing */
@@ -278,7 +296,11 @@ img {
   flex-basis: calc((100% - 2 * 24) / 3);
 }
 
-/* TEAM */
+/**
+  |============================
+  |           TEAM
+  |============================
+*/
 
 .main-team {
   background-color: var(--light);
@@ -335,8 +357,45 @@ img {
 .socials-link:focus {
   background-color: var(--pressed-state);
 }
+/**
+  |============================
+  |          customers
+  |============================
+*/
+.customers {
+  padding: 120px 0;
+}
 
-/* footer */
+.custumers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.costumers-logo {
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-company {
+  fill: var(--subtle-text);
+}
+.logo-company:hover,
+.logo-company:focus {
+  fill: var(--pressed-state);
+}
+
+/**
+  |============================
+  |       footer
+  |============================
+*/
 
 .footer {
   background-color: var(--dark);
@@ -358,8 +417,12 @@ img {
   margin-bottom: 16px;
   text-decoration: none;
 }
-/* ----Portfolio-----  */
 
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
 .sorting-button {
   color: var(--primary-brand);
   background-color: var(--light);
