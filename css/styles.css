@@ -395,6 +395,7 @@ img {
 .costumers-link:hover,
 .costumers-link:focus {
   color: var(--pressed-state);
+  border: 1px solid var(--ocean, #404bbf);
 }
 
 /**
@@ -424,6 +425,32 @@ img {
   text-decoration: none;
 }
 
+.footer-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.footer-second-part {
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-start; */
+}
+.footer-second-text {
+  margin-bottom: 16px;
+  color: var(--white-background);
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.socials-footer {
+  gap: 16px;
+}
 /**
   |============================
   | Portfolio
